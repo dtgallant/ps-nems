@@ -1,0 +1,616 @@
+﻿/*************** NEMS CSS ********************/
+
+body,
+.ms-core-listMenu-verticalBox, .ms-core-listMenu-horizontalBox
+{
+	font-size: 13px;
+}
+
+.ms-core-listMenu-verticalBox > .ms-core-listMenu-item,
+.ms-core-listMenu-verticalBox li.static > .ms-core-listMenu-item {
+	padding-left:5px !important;
+}
+
+ul,dl,ol {
+	margin-left: 10px;
+	margin-right: 0px;
+	padding: 0
+}
+
+ul.ms-core-listMenu-root > li.static > a {
+	font-weight:bold;
+}
+
+.ms-core-overlay {
+    background-color: transparent;
+}
+
+#suiteBarRight {
+	/*background-color: #671200;*/
+	background-color: #eeeeee;
+}
+
+.ms-cui-topBar2 {
+	background-color:#eeeeee;
+}
+
+body.ms-backgroundImage  {
+	background-image: url("/_catalogs/masterpage/NEMS/left-margin.png") !important;
+	background-repeat:no-repeat;
+	background-size: auto;
+	/*background-color:#c0c0c0;*/
+	background-color:#fff;
+}
+
+#s4-bodyContainer {
+	padding-bottom: 0px;
+	min-width: 860px;
+	display: inline-table;
+	width:100%;
+	background-color:white;
+}
+
+#contentRowWrapper {
+	display:inline-table;
+}
+
+#contentRow {
+	background-color:white;
+	min-height:350px;
+}
+
+
+.ms-dialog #wb-sec, .ms-dialog #wb-sup {
+    width: 0px !important;
+}
+
+.ms-dialog #wb-body-sec {
+    background-image: none;
+}
+.ms-dialog [id|="wb-body-sec"] [id|="wb-main"] {
+    width: auto;
+}
+
+#s4-titlerow {
+	background-image: url("/_catalogs/masterpage/NEMS/banner.png") !important;
+	padding-top:11px;
+	padding-bottom:16px;
+	height:64px;
+	min-height:64px;
+}
+
+#titleAreaBox {
+	margin-left:0px;
+}
+
+#pageTitle  
+{ 
+	color: black; 
+	font-size:22px;
+	white-space:normal;
+	min-width:400px;
+	border-bottom:none;
+	margin-top:10px;
+}  
+
+.nems-title {
+	color: white;
+	text-indent: 0px;
+	word-spacing: normal;
+	white-space: normal;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-transform: capitalize;
+	width: 200px;
+	min-width: 200px;
+}
+
+.nems-title a {
+	color: white;
+	font-size: 40px;
+	font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-variant: normal;
+	text-align: left;
+	text-shadow: 2px 2px 2px #000000;
+	text-decoration: none;
+	letter-spacing: 4px;
+	vertical-align: top;
+
+}
+
+.nems-description {
+	
+    font-size: 15px;
+    white-space: nowrap;
+    margin-left: 2px;
+    padding-bottom: 13px;
+    position: relative;
+    left: 131px;
+    top: -30px;
+    font-style:italic;
+}
+
+.ms-core-pageTitle a { color: white; }  
+
+
+
+/*[id$="PlaceHolderMain_UploadDocumentSection"] td {
+    display: table-row;
+}*/
+.ms-core-listMenu-horizontalBox ul.ms-core-listMenu-root > li.static > a.ms-core-listMenu-item,
+.ms-core-listMenu-horizontalBox ul.ms-core-listMenu-root > li.static > span.ms-core-listMenu-item {
+	display: none;
+}
+
+#gcwu-psnb .mb-menu a, 
+#gcwu-psnb .mb-menu span.ms-core-listMenu-item,
+#gcwu-psnb .ms-core-listMenu-horizontalBox a, 
+#gcwu-psnb .ms-core-listMenu-horizontalBox span.ms-core-listMenu-item {
+    padding: .48em 1.17em .48em .79em;
+}
+
+.ms-core-listMenu-horizontalBox ul.ms-core-listMenu-root > li.static > ul {
+	margin-left: 0px;
+}
+
+ul.ms-core-listMenu-root {
+    width: 100%;
+}
+
+#suiteBarLeft {
+	/*background-color: #671200;*/
+	background-color: #888888
+}
+
+#suiteBarLeft .ms-verticalAlignMiddle {
+	width: 100%;
+}
+
+
+.ribbonTitle,
+.unclassified,
+.langToggle,
+.langToggle:visited,
+.langToggle:link,
+.langToggle:active {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.ribbonTitle {
+	margin-left: 20px;
+}
+
+.langToggle {
+	margin-right: 20px;
+}
+
+.unclassified  {
+}
+
+ul.static {
+	margin-bottom: 0;
+	display: table;
+}
+
+
+
+span.ms-accentText,
+span.ms-accentText:visited {
+	color: red;
+}
+.ms-featurestatus {
+    line-height: 18px;
+    margin-top: 3px;
+}
+.ms-featurealtrow table {
+    background-color: transparent;
+}
+.ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item {
+	margin: 0px;
+}
+
+/* AW - changed from 100 to 120 to fix French drop down width */
+ul.dynamic {
+	padding: 0px;
+	width: 120%;
+}
+li.dynamic {
+	width: 120%;
+}
+/* AW*/
+
+
+.ms-core-listMenu-horizontalBox span.dynamic-children .additional-background {
+    cursor: default;
+}
+#s4-workspace {
+	overflow-y: scroll;
+	padding-left:100px;
+}
+
+/* disable in nems 2.1
+#DeltaTopNavigation .ms-core-listMenu-item,
+#DeltaTopNavigation .ms-core-listMenu-item:link,
+#DeltaTopNavigation .ms-core-listMenu-item:visited,
+#DeltaTopNavigation .ms-tv-item:link,
+#DeltaTopNavigation .ms-tv-item:visited,
+#DeltaTopNavigation .ms-tv-header:link,
+#DeltaTopNavigation .ms-tv-header:visited,
+#DeltaTopNavigation .ms-core-listMenu-horizontalBox,
+#DeltaTopNavigation .ms-navedit-editLinksText > span > .ms-metadata,
+#DeltaTopNavigation .ms-core-listMenuEdit > tr > .ms-navedit-linkCell > .ms-core-listMenu-item {
+    color: white;
+    font-weight: bold;
+}
+*/
+
+.mb-menu, #gcwu-bnr {
+    z-index: inherit !important;
+}
+.ms-navedit-editSpan .mb-menu a,
+input[type='button'], input[type='reset'], input[type='submit'] {
+    display: inline-block;
+}
+table th, table td,
+.ms-navedit-dropNode table th, .ms-navedit-dropNode table td, .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenuEdit .ms-navedit-deletelinkCell {
+    padding: 0px;
+    border: none;
+}
+table.ms-core-listMenuEdit {
+    background-color: transparent;
+}
+
+table.ms-core-listMenuEdit #gcwu-psnb .mb-menu a {
+    padding:0px;
+}
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:link,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:visited,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected, .ms-tv-selected:link {
+    color: #fff;
+}
+
+.ms-tv-selected .ms-tv-selected:link {
+	color: #0072c6;
+}
+
+.ms-listedit table img {
+    margin:0px;
+}
+.breadcrumbNodes {
+    margin: 5px 15px 0px;
+    display: inline-block;
+}
+#wb-date-in {
+    float: right;
+    margin-right: 20px;
+
+}
+
+/* AW - BEGIN Hide Left Nav */
+#wb-sec {
+    display: none !important;
+}
+#sideNavBox {
+	width: 200px;
+    display: none !important;
+}
+#contentBox {
+	margin-left: 20px;
+}
+
+[id|="wb-body-sec"] [id|="wb-main"] {
+        width: 100% /*was 940px; */
+    }
+
+
+#navresizerVerticalBarPositionHelper {
+	display:none;
+}
+
+/*END Hide Left Nav */
+
+
+/* AW - search box fix */
+.ms-srch-sb {
+	background-color: #fff;
+	display:block;
+}
+
+/* Search Box */
+#searchInputBox {
+    margin:0;
+    background-color: #fff;
+    width:230px;
+}
+.ms-mpSearchBox {
+    width: 230px;
+}
+
+.ms-srch-sb-searchImg {
+    left: -34px;
+    top: -56px;
+}
+.ms-srch-sb-searchImg:hover{
+    left: 0px;
+    top: -68px;
+}
+#gcwu-srchbx{
+    padding: 0;
+}
+#DeltaPlaceHolderSearchArea {
+    padding: 15px 0px 0;
+    display: none;
+}
+#gcwu-srchbx input {
+    height: 2em;
+    margin-left:5px;
+    margin-right: -5px;
+}
+
+span.ms-RadioText label {
+	display:inline-block;
+	margin-left:5px;
+}
+
+div[id^="MSOPictureLibrarySlideshowWebPart"][id$="_text"] { 
+	text-align:center;
+}
+
+/* Colour gradient for buttons of type='submit', since WET3 doesn't apply style to those. And make 'button' types work exactly the same way */
+input[type="submit"], input[type = "button"], input[type = "reset"] {
+    background-color: #176ca7;
+    border-color: #0e4164 #0e4164 #0b324d;
+    color: white!important;
+    text-shadow: 0 1px 1px #222;
+    /*background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIi');*/
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #176ca7), color-stop(100%, #114f7a));
+    background-image: -webkit-linear-gradient(#176ca7, #114f7a);
+    background-image: -moz-linear-gradient(#176ca7, #114f7a);
+    background-image: -o-linear-gradient(#176ca7, #114f7a);
+    background-image: linear-gradient(#176ca7, #114f7a)
+}
+
+
+#gcwu-bc {
+    background-color:white;
+    margin-top:20px;
+}
+
+#gcwu-bc-in {
+    font-size: 100%;	
+}
+
+#gcwu-bc-in span {
+ 	top:4px;
+	position:static;
+}
+
+/* simulate the grey links footer area  */
+#footerLink-container {
+border-top: 2px solid grey; 
+background-color: #eeeeee; 
+color: black; 
+padding: 20px; 
+}
+
+#footerLink-box  {
+height: 100%; 
+width: 100%; 
+overflow: hidden; 	
+}
+
+#footerLink-left  {
+float: left; 
+width: 25%; 
+padding: 0px 20px 0px 20px; 
+border: 1px solid #eeeeee; 
+}
+
+#footerLink-middle  {
+float: left; 
+width: 25%; 
+padding: 0px 20px 0px 20px; 
+border: 1px solid #eeeeee; 
+}
+
+#footerLink-right  {
+float: right; 
+width: 25%;  
+padding: 0px 20px 0px 20px; 
+border: 1px solid #eeeeee; 
+}
+
+.footerLink-heading {
+color:  black; 
+font-weight:  bold;  
+font-size:  16px; 
+}
+
+.footerLink-item {
+color:  black; 
+}
+
+a.footerLink-heading:link,  a.footerLink-heading:visited,   a.footerLink-heading:hover,   a.footerLink-heading:active  {
+    color:  black;
+}
+
+a.footerLink-item:link,  a.footerLink-item:visited,   a.footerLink-item:hover,   a.footerLink-item:active  {
+    color:  black;
+}
+
+/* simulate the black global government footer menu */
+#govMenu-container {
+padding: 10px 10px 15px 10px;
+background-color: black; 
+color: white;
+}
+
+#govMenu-ul {
+text-align: center;
+}
+
+.govMenu-li {
+display: inline-block; 
+padding: 0px 20px 0px 20px;
+}
+
+.govMenuText {
+color: white; 
+font-weight: bold;
+}
+
+.govMenuText2 {
+color: white;
+font-size: 14pt;
+}
+
+a.govMenuLink:link,  a.govMenuLink:visited,   a.govMenuLink:hover,   a.govMenuLink:active  {
+    color:  white;
+}
+
+/* top nav 
+
+.ms-breadcrumb-top  {
+height: 26px;	
+}
+
+.ms-navedit-linkNode {
+height: 24px;	
+position: relative;
+top: -1px;
+}
+
+.ms-breadcrumb-top, .mb-menu li
+{ 
+
+    background-color: #176ca7;
+    border-color: #0e4164 #0e4164 #0b324d;
+    color: white !important;
+    text-shadow: 0 1px 1px #222; 
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIi');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #176ca7), color-stop(100%, #114f7a));
+    background-image: -webkit-linear-gradient(#176ca7, #114f7a);
+    background-image: -moz-linear-gradient(#176ca7, #114f7a);
+    background-image: -o-linear-gradient(#176ca7, #114f7a);
+    background-image: linear-gradient(#176ca7, #114f7a);
+	padding-left: 15px;
+	padding-right: 15px; 
+}
+    
+.ms-navedit-linkNode 
+{ 
+
+}  
+
+*/
+
+#DeltaTopNavigation .ms-displayInline
+{
+	padding-top: 4px;
+}
+
+.ms-breadcrumb-top
+{ 
+
+    background-color: #176ca7;
+    border-color: #0e4164 #0e4164 #0b324d;
+    color: white !important;
+    text-shadow: 0 1px 1px #222; 
+    background-size: 100%;
+    /*background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIi');
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #176ca7), color-stop(100%, #114f7a));*/
+    background-image: -webkit-linear-gradient(#7d352b, #671200);
+    background-image: -moz-linear-gradient(#7d352b, #671200);
+    background-image: -o-linear-gradient(#7d352b, #671200);
+    background-image: linear-gradient(#7d352b, #671200);
+    height:30px;
+    margin-top:3px;
+}
+
+.mb-menu li.dynamic
+{ 
+
+    background-color: #176ca7;
+    border-color: #0e4164 #0e4164 #0b324d;
+    color: white !important;
+    text-shadow: 0 1px 1px #222; 
+    /*background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIi');
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #176ca7), color-stop(100%, #114f7a));*/
+    background-size: 100%;
+    background-image: -webkit-linear-gradient(#7d352b, #671200);
+    background-image: -moz-linear-gradient(#7d352b, #671200);
+    background-image: -o-linear-gradient(#7d352b, #671200);
+    background-image: linear-gradient(#7d352b, #671200);
+    height:26px;
+}
+
+.mb-menu li.static span.menu-item-text
+{ 
+
+    color: white !important;
+    font-size:110%;
+    text-shadow: 0 1px 1px #222; 
+	padding-left: 15px;
+	padding-right: 15px; 
+}
+
+
+#DeltaTopNavigation .ms-core-listMenu-item,
+#DeltaTopNavigation .ms-core-listMenu-item:link,
+#DeltaTopNavigation .ms-core-listMenu-item:visited,
+#DeltaTopNavigation .ms-tv-item:link,
+#DeltaTopNavigation .ms-tv-item:visited,
+#DeltaTopNavigation .ms-tv-header:link,
+#DeltaTopNavigation .ms-tv-header:visited,
+#DeltaTopNavigation .ms-core-listMenu-horizontalBox,
+#DeltaTopNavigation .ms-navedit-editLinksText > span > .ms-metadata,
+#DeltaTopNavigation .ms-core-listMenuEdit > tr > .ms-navedit-linkCell > .ms-core-listMenu-item {
+    color: white;
+}
+
+
+/*
+
+.ms-breadcrumb-top  ,
+.ms-navedit-linkNode 
+{ 
+
+    background-color: #176ca7;
+    border-color: #0e4164 #0e4164 #0b324d;
+    color: white !important;
+    text-shadow: 0 1px 1px #222; 
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIi');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #176ca7), color-stop(100%, #114f7a));
+    background-image: -webkit-linear-gradient(#176ca7, #114f7a);
+    background-image: -moz-linear-gradient(#176ca7, #114f7a);
+    background-image: -o-linear-gradient(#176ca7, #114f7a);
+    background-image: linear-gradient(#176ca7, #114f7a)
+}  
+
+
+
+*/
+
+.ui-table, table
+{
+	border-collapse:collapse
+}
+
+.dynamic > li { list-style-type: none; 	 }
+
+/* GRIDS overrides */
+
+blockquote,form,img,pre {
+    margin-bottom: 0px
+}
+
+.ms-headerSortArrowLink {
+    display: inline;
+}

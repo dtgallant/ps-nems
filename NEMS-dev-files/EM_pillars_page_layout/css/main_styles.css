@@ -1,0 +1,41 @@
+#large_headline_section .ms-formfieldvaluecontainer {
+    color:black;
+    /* font-size:25px; */
+}
+ 
+#headline-jumbotron {
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+#top_image_row_section {
+    margin-bottom:10px;
+}
+
+#image-block {
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.top_row_image {
+    width:200px;
+    margin-right:3px;
+}
+
+
+#main_text_area_section {
+    margin-bottom:20px;
+}
+
+#bottom_left_widget_section {
+    margin:20px;
+}
+
+#bottom_right_widget_section {
+    margin:20px;
+}
+
+
+
