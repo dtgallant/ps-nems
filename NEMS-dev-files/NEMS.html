@@ -27,7 +27,7 @@ To build the master page directly from this HTML file, simply edit the page as y
         <!--SPM:<SharePoint:RobotsMetaTag runat="server"/>-->
         <!--SPM:<SharePoint:PageTitle runat="server">-->
         <!--SPM:<asp:ContentPlaceHolder id="PlaceHolderPageTitle" runat="server"/>-->
-        <!--SPM:</SharePoint:PageTitle>-->
+        <!--SPM:</SharePoint:PageTitle>--> 
         <!--SPM:<SharePoint:StartScript runat="server"/>-->
         <!--SPM:<SharePoint:CssLink runat="server" Version="15"/>-->
         <!--PS: Start of READ-ONLY PREVIEW (do not modify) --><link href="http://nems/_layouts/15/1033/styles/corev15.css" type="text/css" rel="stylesheet" /><link href="http://nems/_layouts/15/1033/styles/searchv15.css" type="text/css" rel="stylesheet" /><!--PE: End of READ-ONLY PREVIEW -->
@@ -54,11 +54,26 @@ To build the master page directly from this HTML file, simply edit the page as y
     
     //]]>
         </script>
+
+        
         <script src="NEMS/nems.js">//<![CDATA[
 
     
     //]]>
         </script>
+
+    <script src="page_layout_assets/js/popper.min.js">//<![CDATA[
+        //]]></script>
+
+<script src="page_layout_assets/js/bootstrap.min.js">//<![CDATA[
+    //]]></script>
+
+<script src="page_layout_assets/js/lity.min.js">//<![CDATA[
+    //]]></script>
+
+<script src="page_layout_assets/js/masonry.min.js">//<![CDATA[
+    //]]></script>
+
 <![CDATA[ [if IE 9] ]]>        <style type="text/css">//<![CDATA[
          .ms-core-animation-transparent {
             opacity: 0;
@@ -602,5 +617,17 @@ To build the master page directly from this HTML file, simply edit the page as y
     
     //]]>
         </script>
+
+        <script>
+            $(function() {
+                
+                $(".lity-lightbox").click(function (e) { 
+                    e.preventDefault();
+                    var value = $(this).attr("href");
+                    var lightbox = lity(value);
+                }); 
+            });
+        </script>
+
     </body>
 </html>

@@ -40,43 +40,29 @@ To build the page layout directly from this HTML file, simply fill in the conten
             <link href="page_layout_assets/css/bootstrap.min.css" rel="stylesheet" />
             <link href="page_layout_assets/css/lity.min.css" rel="stylesheet" />
             <link href="NEMS_home_page_layout/css/main_styles.css" rel="stylesheet" />
-
-            <script src="page_layout_assets/js/jquery-3.1.1.min.js"></script>
-            <script src="page_layout_assets/js/popper.min.js"></script>
-            <script src="page_layout_assets/js/bootstrap.min.js"></script>
-            <script src="page_layout_assets/js/lity.min.js"></script>
-            <script src="page_layout_assets/js/masonry.min.js"></script>
-
-            <script>
-                $(function() {
-                    
-                    $(".lity-lightbox").click(function (e) { 
-                        e.preventDefault();
-                        var value = $(this).attr("href");
-                        var lightbox = lity(value);
-                    }); 
-                });
-            </script>
-
-
+       
             <!--ME:</asp:ContentPlaceHolder>-->
         <link rel="stylesheet" href="NEMS/grids.css" />
         <link rel="stylesheet" href="NEMS/nems.css" />
-        <script src="NEMS/jquery-1.12.1.js">//<![CDATA[
+        <!-- <script src="NEMS/jquery-1.12.1.js">//<![CDATA[
 
     
     
         
         //]]>
-        </script>
+        </script> -->
         <script src="NEMS/nems.js">//<![CDATA[
 
-    
-    
+      
+
         
         //]]>
         </script>
-        <style type="text/css">//<![CDATA[
+     
+   
+
+
+     <style type="text/css">//<![CDATA[
          .ms-core-animation-transparent {
             opacity: 0;
         }
@@ -319,7 +305,7 @@ To build the page layout directly from this HTML file, simply fill in the conten
                 <!--ME:</Publishing:EditModePanel>-->
                 <!--CE: End Page Field: Title Snippet-->
             </div>
-            <div>
+            <div id="top_section">
                 <!--CS: Start Page Field: TopSection Snippet-->
                 <!--SPM:<%@Register Tagprefix="PageFieldRichHtmlField" Namespace="Microsoft.SharePoint.Publishing.WebControls" Assembly="Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"%>-->
                 <!--MS:<PageFieldRichHtmlField:RichHtmlField FieldName="c11e8c5a-2f8c-4ed0-952b-0f5d1653e6d0" runat="server">-->
@@ -327,7 +313,7 @@ To build the page layout directly from this HTML file, simply fill in the conten
                 <!--ME:</PageFieldRichHtmlField:RichHtmlField>-->
                 <!--CE: End Page Field: TopSection Snippet-->
             </div>
-            <div>
+            <div id="news_feed_section" >
                 <!--CS: Start Page Field: NewsFeedSection Snippet-->
                 <!--SPM:<%@Register Tagprefix="PageFieldRichHtmlField" Namespace="Microsoft.SharePoint.Publishing.WebControls" Assembly="Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"%>-->
                 <!--MS:<PageFieldRichHtmlField:RichHtmlField FieldName="ba39f616-edc4-474e-b6ac-9e2aa50e1e6b" runat="server">-->
@@ -335,7 +321,7 @@ To build the page layout directly from this HTML file, simply fill in the conten
                 <!--ME:</PageFieldRichHtmlField:RichHtmlField>-->
                 <!--CE: End Page Field: NewsFeedSection Snippet-->
             </div>
-            <div>
+            <div id="bottom_section">
                 <!--CS: Start Page Field: BottomSection Snippet-->
                 <!--SPM:<%@Register Tagprefix="PageFieldRichHtmlField" Namespace="Microsoft.SharePoint.Publishing.WebControls" Assembly="Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"%>-->
                 <!--MS:<PageFieldRichHtmlField:RichHtmlField FieldName="b0491566-0666-44ab-aa63-b9104e076ae8" runat="server">-->

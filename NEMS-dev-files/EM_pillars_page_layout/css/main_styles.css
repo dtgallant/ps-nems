@@ -6,6 +6,7 @@
 #headline-jumbotron {
     background-size: cover;
     background-blend-mode: soft-light;
+    max-height: 300px;
 }
 
 #top_image_row_section {
