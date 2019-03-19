@@ -1,6 +1,6 @@
 /*** Top Navigaion Menu Items container DIV ***/
 .ms-core-listMenu-horizontalBox {
-    background-color: #476275;
+    background-color: #7b2029;
     width:100%;
 } 
   
@@ -23,7 +23,7 @@
   /* Top Navigation static Menu Item Links Hover Style  */
 .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item:hover {
     background: url("/_layouts/Images/selbg.png") repeat-x left top;
-    background-color: #0A85C4;
+    background-color: #888888;
     color: #fff;
     text-decoration: none;
 }
@@ -33,7 +33,7 @@
      /* Glass Effect Shade Image */
     background: url("/_layouts/Images/selbg.png") repeat-x left top;
  /* Glass Effect Shade Image */
-    background-color: #164861;
+    background-color: #7b2029
     color: #fff;
     text-decoration: none;
     border: 1px #134072 solid;

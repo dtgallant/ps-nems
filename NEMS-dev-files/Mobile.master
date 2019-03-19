@@ -64,6 +64,8 @@
         <link href="/_catalogs/masterpage/mobile/css/bootstrap.css" rel="stylesheet" />
         <link href="/_catalogs/masterpage/mobile/css/bootstrap-custom.css" rel="stylesheet" /> 
         
+        <link href="/_catalogs/masterpage/page_layout_assets/css/lity.min.css" rel="stylesheet" />        
+
         <script src="/_catalogs/masterpage/mobile/js/modernizr.2.6.2.custom.min.js" type="text/javascript">//<![CDATA[
         //]]></script>
         
@@ -231,7 +233,7 @@
 
 						            <!--page title-->
 								    <div id="pageTitleDiv" class="float-left" style="background-color: transparent;" >
-                                        <div class="nems-title"><a class="nems-title-link" href="/SitePages/Home.aspx">NEMS</a></div>
+                                        <div class="nems-title"><a class="nems-title-link" href="/SitePages/Pages/NEMS_home.aspx">NEMS</a></div>
                                         <div class="nems-description">National Emergency Management System</div>
 					                </div>
 
