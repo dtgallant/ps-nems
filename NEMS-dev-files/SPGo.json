@@ -1,0 +1,6 @@
+{
+    "sourceDirectory": "src",
+    "sharePointSiteUrl": "https://nems-sngu.preprod.hre-ehr.gc.ca",
+    "publishingScope": "Major",
+    "authenticationType": "Forms"
+}
